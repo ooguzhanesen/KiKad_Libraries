@@ -1,0 +1,79 @@
+(footprint "Power_card" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 18.93 4.34 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 689ec31b-03b7-4304-96f6-4413de1522da)
+  )
+  (fp_text value "Power_card" (at 18.93 5.84 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dc933ae9-b975-45c5-a96e-875c54ad5ab9)
+  )
+  (fp_text user "${REFERENCE}" (at 18.93 7.34 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 983479cf-4c95-4bb7-a754-a6d587773c52)
+  )
+  (fp_rect (start 0 -51.89) (end 69.75 1.92)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Margin") (tstamp d8bfe604-ba4a-4cff-9548-d361c07d3c48))
+  (pad "1" smd rect (at 2.51 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1aafad13-8d4e-4adf-8a46-5980396e95cb))
+  (pad "1" smd rect (at 4.51 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c036e633-f059-49c3-aacb-c2ba29d4ef99))
+  (pad "1" smd rect (at 6.51 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4b9bb818-ae86-4e91-978b-c42cc619e314))
+  (pad "1" smd rect (at 8.51 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c2cdec1-2091-4639-91fd-e7575335b1d5))
+  (pad "2" smd rect (at 22.51 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bf5400e6-4992-4667-b726-13b65239f380))
+  (pad "2" smd rect (at 24.51 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b7c13f37-a964-4ad6-b1e9-ea9dcc0600cb))
+  (pad "2" smd rect (at 26.51 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f90095a4-693a-4b98-9d1d-190aecdaae51))
+  (pad "2" smd rect (at 28.51 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 43254aa2-049c-4bb3-93ca-6d09a8e64dfe))
+  (pad "3" smd rect (at 41.76 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 253169f5-c230-41e1-866c-3496338bf1b9))
+  (pad "3" smd rect (at 43.76 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d47f2bdb-e5cf-4791-822c-597af88dfd06))
+  (pad "3" smd rect (at 45.76 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 615d6161-98f0-4748-9410-cf5061a809fb))
+  (pad "3" smd rect (at 47.76 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5b465970-cb29-4689-a529-c803892e87f0))
+  (pad "4" smd rect (at 61.76 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 122c8be7-1484-443c-8ba7-ef4e3fdcaa85))
+  (pad "4" smd rect (at 63.76 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0b2d4b77-6c9f-4f58-b00f-e1e95d814678))
+  (pad "4" smd rect (at 65.76 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3fc427a6-01d1-4f5c-80af-2689a67491ad))
+  (pad "4" smd rect (at 67.76 0.31 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d87fd119-42c3-4d10-86ce-def49a01198b))
+  (pad "5" smd rect (at 2.51 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bdfd41c5-4ad3-44ab-81c0-3d4a6a867ea8))
+  (pad "5" smd rect (at 4.51 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 59fbbc9e-45ef-4a8b-a1ea-52c5e6233a78))
+  (pad "5" smd rect (at 6.51 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9190397a-7969-4043-a7e8-aa2766aef370))
+  (pad "5" smd rect (at 8.51 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ad46eccf-b04b-43a0-9b91-65372d4c6f0e))
+  (pad "6" smd rect (at 22.51 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0f03a826-3bdd-4967-a716-65e3701eeaa6))
+  (pad "6" smd rect (at 24.51 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 06a9f56a-4acf-40d2-bde1-f66b23b9e23a))
+  (pad "6" smd rect (at 26.51 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5111efaf-76d6-4a5b-869a-1a36b7474782))
+  (pad "6" smd rect (at 28.51 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 925b3cb9-2324-43d9-a9a6-558f745434c1))
+  (pad "7" smd rect (at 41.76 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7dbc0a57-cefa-4d8a-9575-980039c69221))
+  (pad "7" smd rect (at 43.76 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 52bfceb4-9d1d-4ad8-b55b-bf273580b729))
+  (pad "7" smd rect (at 45.76 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b1738896-d754-4a42-a1eb-67e160636eb5))
+  (pad "7" smd rect (at 47.76 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7a1fc1d6-162e-492e-abfa-8c74d269c45d))
+  (pad "8" smd rect (at 61.76 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2ff82216-9c49-4686-a946-9375087795b2))
+  (pad "8" smd rect (at 63.76 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b9a6807f-5a23-48eb-8f86-cbbb387b29b5))
+  (pad "8" smd rect (at 65.76 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0828933c-8b97-4656-9c69-174d6ab8be2f))
+  (pad "8" smd rect (at 67.76 -50.32 90) (size 3 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f6d5a6a8-f6a3-4bff-b530-172ececa110a))
+  (group "" (id 861cbe14-3146-4392-9c90-51b91ae4c65e)
+    (members
+      0b2d4b77-6c9f-4f58-b00f-e1e95d814678
+      122c8be7-1484-443c-8ba7-ef4e3fdcaa85
+      253169f5-c230-41e1-866c-3496338bf1b9
+      3fc427a6-01d1-4f5c-80af-2689a67491ad
+      5b465970-cb29-4689-a529-c803892e87f0
+      615d6161-98f0-4748-9410-cf5061a809fb
+      d47f2bdb-e5cf-4791-822c-597af88dfd06
+      d87fd119-42c3-4d10-86ce-def49a01198b
+    )
+  )
+  (group "" (id c43bda24-03c7-46df-b28f-adafe208e810)
+    (members
+      0828933c-8b97-4656-9c69-174d6ab8be2f
+      2ff82216-9c49-4686-a946-9375087795b2
+      52bfceb4-9d1d-4ad8-b55b-bf273580b729
+      7a1fc1d6-162e-492e-abfa-8c74d269c45d
+      7dbc0a57-cefa-4d8a-9575-980039c69221
+      b1738896-d754-4a42-a1eb-67e160636eb5
+      b9a6807f-5a23-48eb-8f86-cbbb387b29b5
+      f6d5a6a8-f6a3-4bff-b530-172ececa110a
+    )
+  )
+  (model "C:/Users/homam/Desktop/mergened/kicad-lib/3dmodels/POWER.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

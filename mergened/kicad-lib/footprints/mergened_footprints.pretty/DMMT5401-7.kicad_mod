@@ -1,0 +1,89 @@
+(footprint "DMMT5401-7" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 2.215075 1.145625 180) (layer "F.SilkS")
+      (effects (font (size 0.801835 0.801835) (thickness 0.15)))
+    (tstamp 24c2b9ca-9a3b-4b75-8fed-18ca609ad8df)
+  )
+  (fp_text value "DMMT5401-7" (at -2.17027 1.14631 180) (layer "F.Fab")
+      (effects (font (size 0.802315 0.802315) (thickness 0.15)))
+    (tstamp 7f34208b-82d9-4a64-9c45-f2a931df9ad8)
+  )
+  (fp_circle (center -1.27 -1.778) (end -1.143 -1.778)
+    (stroke (width 0.127) (type solid)) (fill none) (layer "F.SilkS") (tstamp 2616d666-27d3-470c-bda9-2b857225b29d))
+  (fp_line (start -1.423 -0.781) (end 1.422 -0.781)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 1a99c639-f51c-4a7c-8964-f08e1252d619))
+  (fp_line (start 1.422 0.781) (end -1.423 0.781)
+    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 14d8b198-9181-4234-bc99-6985aff9f422))
+  (fp_poly
+    (pts
+      (xy -1.20344 0.8)
+      (xy -0.7 0.8)
+      (xy -0.7 1.40401)
+      (xy -1.20344 1.40401)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 47b54efa-cbd5-4a8d-a622-6757df2e1aff))
+  (fp_poly
+    (pts
+      (xy -1.20225 -1.4)
+      (xy -0.7 -1.4)
+      (xy -0.7 -0.801501)
+      (xy -1.20225 -0.801501)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp f674900d-25a7-4a80-b6c5-648ed42d0cc8))
+  (fp_poly
+    (pts
+      (xy -0.25048 0.8)
+      (xy 0.25 0.8)
+      (xy 0.25 1.40269)
+      (xy -0.25048 1.40269)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp d99ffb9f-d71b-41e3-80e3-77aab851f86e))
+  (fp_poly
+    (pts
+      (xy -0.250313 -1.4)
+      (xy 0.25 -1.4)
+      (xy 0.25 -0.801002)
+      (xy -0.250313 -0.801002)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp c4dbbd7a-7cff-4f1a-8285-69e4edc54fc0))
+  (fp_poly
+    (pts
+      (xy 0.701181 0.8)
+      (xy 1.2 0.8)
+      (xy 1.2 1.40236)
+      (xy 0.701181 1.40236)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 6ec49a00-6e98-4d8f-a29b-302ed99e4796))
+  (fp_poly
+    (pts
+      (xy 0.701565 -1.4)
+      (xy 1.2 -1.4)
+      (xy 1.2 -0.801789)
+      (xy 0.701565 -0.801789)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 280d0727-e17a-4a62-a43e-8ae1026d229c))
+  (pad "1" smd rect (at -1.15 -0.95 270) (size 0.6 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp e94f8d82-7e56-4f47-8535-6bcfd04a844b))
+  (pad "2" smd rect (at -1.15 0 270) (size 0.6 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp 65b95bfc-3bff-4ad3-afb1-4b0d4fab14e5))
+  (pad "3" smd rect (at -1.15 0.95 270) (size 0.6 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp bbea944d-c7e0-4843-8ae6-e99e77fb0d89))
+  (pad "4" smd rect (at 1.15 0.95 270) (size 0.6 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp 0cec8dcb-cc00-42ee-931e-6495d234ccd4))
+  (pad "5" smd rect (at 1.15 0 270) (size 0.6 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp f1340654-b2b4-4884-8429-2bda70b0d483))
+  (pad "6" smd rect (at 1.15 -0.95 270) (size 0.6 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp 1c7bc35d-79f5-4465-a36e-d7c78a91519c))
+  (model "C:/Users/homam/Desktop/mergened/kicad-lib/3dmodels/DMMT5401-7.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
