@@ -1,0 +1,1 @@
+oguzhan eşene selam olsun :)
